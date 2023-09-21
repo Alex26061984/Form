@@ -1,0 +1,48 @@
+.body {
+    background-image: url('/image/20544381.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+body>fieldset {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    height: 600px;
+    background-color: white;
+}
+
+fieldset>h1 {
+    text-align: center;
+}
+
+body form {
+    font-size: 25px;
+}
+
+body input {
+    font-size: 25px;
+    width: 97%;
+    height: 40px;
+    border-radius: 8px
+}
+
+form>button {
+    font-size: 25px;
+    width: 98%;
+    height: 50px;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    cursor: pointer;
+    background-image: linear-gradient(blue, red, green)
+}
+
+form p {
+    text-align: center;
+    margin-bottom: 80px;
+}
